@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Letter Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-body">
+        <h1 class="title">Cover Letter Generator</h1>
+        <div class="input-section">
+            <h2 class="section-title">Job Details</h2>
+            <label for="job-description" class="label">Job Description:</label>
+            <input type="text" id="job-description" name="job-description" class="input-text">
+        </div>
+
+        <div class="input-section">
+            <h2 class="section-title">Upload Resume</h2>
+            <input type="file" id="resume" name="resume" accept=".pdf" class="input-file">
+        </div>
+        <button id="generate-cover-letter" class="button">Generate Cover Letter</button>
+        <h4 id="genearting"> </h4>
+        <div class="output-section">
+            <h2 class="section-title">Generated Cover Letter</h2>
+            <p id="cover-letter-output" class="output-text"></p>
+            <button id="copy-cover-letter" class="button">Copy to Clipboard</button>
+            <!-- <button id="download-cover-letter" class="button">Download as PDF</button> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
