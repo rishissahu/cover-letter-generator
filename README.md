@@ -10,10 +10,19 @@ Welcome to the Cover Letter Generator project! This simple yet effective tool au
 
 ## Installation
 
-- Clone this repository
-- Open Chrome and navigate to chrome://extensions/.
-- Enable "Developer mode" in the top right corner.
-- Click on "Load unpacked" and select the cloned repository.
+1. Clone this repository.
+2. Open Chrome and navigate to chrome://extensions/.
+3. Enable "Developer mode" in the top right corner.
+4. Click on "Load unpacked" and select the cloned repository.
+
+### Setting up OpenAI API Key
+
+1. Obtain your OpenAI API key from [OpenAI](https://platform.openai.com/api-keys).
+2. Create a `.env` file in the root directory of the project.
+3. Add your OpenAI API key to the `.env` file:
+
+   ```env
+   OPENAI_API_KEY= your-api-key-here
 
 ## Usage
 
